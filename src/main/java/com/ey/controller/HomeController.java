@@ -17,5 +17,10 @@ public class HomeController {
 		return "Welcome to page 1";
 	}
 	
+	@GetMapping("/page2")
+	public String page2() {
+		return "Welcome to page 2";
+	}
+	
 
 }
